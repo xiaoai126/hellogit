@@ -1,0 +1,105 @@
+<Row>
+  <Col>
+    <FormItem
+      {...formItemLayout}
+      label="大类"
+      required
+    >
+      <Select defaultValue={broadHeadingData[0].value} onChange={this.handleProvinceChange}>
+        { provinceOptions }
+      </Select>
+    </FormItem>
+  </Col>
+</Row>
+
+<Row>
+  <Col>
+    <FormItem
+      {...formItemLayout}
+      label="分类"
+      required
+    >
+      <Select defaultValue={contractType[0].value} style={{ width: 150 }} onChange={this.contractChange} disabled={this.state.disabled} >
+        {contractOption}
+      </Select>
+    </FormItem>
+  </Col>
+</Row>
+
+
+
+
+<Select value={this.state.secondCity} style={{ width: 150 }} onChange={this.onSecondCityChange}>
+  {cityOptions}
+</Select>
+<textarea rol="8"></textarea>
+<Select value={this.state.secondCity} style={{ width: 150 }} onChange={this.onSecretLevelOptionChange}>
+  {secretLevelOption}
+</Select>
+<Select value={this.state.secondCity} style={{ width: 150 }} onChange={this.onSecretLevelOptionChange}>
+  {secretLevelOption}
+</Select>
+
+
+<Row>
+  <Col>
+    <FormItem
+      {...formItemLayout}
+      label="分类"
+      required
+    >
+      <textarea rol="8"></textarea>
+    </FormItem>
+  </Col>
+</Row>
+
+<Row>
+  <Col>
+    <FormItem
+      {...formItemLayout}
+      label="分类"
+      required
+    >
+      <Select value={this.state.secondCity} style={{ width: 150 }} onChange={this.onSecretLevelOptionChange}>
+        {secretLevelOption}
+      </Select>
+    </FormItem>
+  </Col>
+</Row>
+
+<Row>
+  <Col>
+    <FormItem
+      {...formItemLayout}
+      label="分类"
+      required
+    >
+     //这里放置input
+      
+    </FormItem>
+  </Col>
+</Row>
+<Row>
+  <Col>
+    <FormItem
+      {...formItemLayout}
+      label="分类"
+      required
+    >
+     //这里放置input
+      
+    </FormItem>
+  </Col>
+</Row>
+<Row>
+  <Col>
+    <FormItem
+      {...formItemLayout}
+      label="分类"
+      required
+    >
+     //这里放置input
+      
+    </FormItem>
+  </Col>
+</Row>
